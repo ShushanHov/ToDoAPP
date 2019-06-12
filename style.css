@@ -1,0 +1,37 @@
+body{
+    background-color: lightblue;
+}
+#title{
+    text-align: center;
+    color: red;
+}
+#app-contains{
+    max-width: 500px;
+    min-width: 300px;
+    margin: 10px auto;
+}
+#app-header{
+    display: flex;
+}
+
+#app-header button{
+    margin-left: 10px;
+    width: 70px;
+}
+
+#app-header input{
+    flex: 1;
+    padding: 1.7%;
+}
+.todo-item{
+    display: flex;
+    width: 83%;
+    border-style: double;
+    margin-top: 10px;
+    background-color: orange;
+    justify-content: space-between;
+}
+.completed{
+    background-color: lightgreen;
+    text-decoration: line-through;
+}
